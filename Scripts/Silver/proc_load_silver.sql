@@ -5,10 +5,11 @@ Stored Procedure: Load silver Layer (Bronze -> Silver)
 
 ==================================================================================================
 Script Purpose:
-  This stored procedure loads date into the 'silver' schema from external CSV files.
-  It performs the silver tables befor loading data.
-  - Truncates the silver tables befor loading data.
-  - Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
+  This stored procedure performs the ETL (Extract, Transform, Load process to
+  populate the 'slver' schema tables from the 'broze' schema.
+Action Performed:
+	- Truncates Silver tables.
+	- Inserts transformed and cleansed data from Bronze into Silver tables.
 
 Parameters:
     None.
