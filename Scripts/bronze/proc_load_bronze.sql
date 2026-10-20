@@ -26,7 +26,7 @@ BEGIN
 	BEGIN TRY
 		SET @start_time_1 = GETDATE();
 		PRINT '======================================================';
-		PRINT 'Loading Bronze Bronze Layer';
+		PRINT 'Loading Bronze Layer';
 		PRINT '======================================================';
 
 		PRINT '------------------------------------------------------';
